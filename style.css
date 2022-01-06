@@ -1,0 +1,130 @@
+.top-section{
+    display: flex; 
+    
+}
+
+.special-font{
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    font-size: 35;
+    border-left: 5px solid red;
+    padding: 8px;
+}
+
+.top-left{
+    width: 50%;
+    margin-left: 15%;
+    padding: 10px 20px;
+    
+    
+}
+
+.top-right{
+    width: 50%;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.top-right img {
+    width: 55%;
+}
+
+#orange{
+    color: orange;
+
+}
+
+.button-style{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 8px;
+}
+
+.text-focused{
+    
+    font-family:sans-serif;
+}
+
+.centered {
+    text-align: center;
+    font-size: 20;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2% 10%;
+}
+
+.container img {
+    width: 125px;
+}
+
+.left-container {
+    background-color: rgb(108, 196, 196);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.middle-container {
+    background-color: lightsteelblue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 33%;
+    
+}
+
+.right-container {
+    background-color: lightsalmon;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 33%;
+}
+
+.text-reduced{
+    font-size: 16px;
+}
+
+.face-mask{
+    display: flex;
+    margin: auto;
+}
+
+.face-mask-left{
+    width:50%;
+    margin-left: 170px;
+}
+
+.face-mask-left img {
+    width: 380px;
+    border-radius: 15px;
+    margin-top: 15px;
+    
+}
+
+.face-mask-right{
+    width:50%;
+    margin-right: 70px;
+   
+    
+}
+
+.special-font2{
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    font-size: 30;
+    
+    padding: 8px;
+}
+
+
+
