@@ -28,6 +28,7 @@
 
 .top-right img {
     width: 55%;
+    margin-left: 20px;
 }
 
 #orange{
@@ -47,6 +48,7 @@
 .text-focused{
     
     font-family:sans-serif;
+    text-align: justify;
 }
 
 .centered {
@@ -97,11 +99,17 @@
 .face-mask{
     display: flex;
     margin: auto;
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+   
+    
 }
 
 .face-mask-left{
     width:50%;
     margin-left: 170px;
+    
+   
 }
 
 .face-mask-left img {
@@ -121,10 +129,101 @@
 .special-font2{
     font-family: 'Lobster', cursive;
     font-weight: 800;
-    font-size: 30;
+    font-size: 27;
     
-    padding: 8px;
+   
 }
+
+.vaccination {
+    display: flex;
+   
+}
+
+.vaccination-left{
+    width:50%;
+    margin-left: 170px;
+}
+
+.vaccination-right img {
+    width: 380px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15%;
+    
+}
+
+.vaccination-right{
+    width:50%;
+    margin-right: 70px;
+     
+}
+
+.dark {
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+
+    }
+
+.footer-text {
+    color: white;
+}
+
+#red {
+    color:red;
+}
+
+.special-font3{
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    font-size: 24;
+
+}
+
+.covid{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightyellow;
+    box-shadow: 8px 6px 4px grey;
+    padding: 15px;
+
+}
+
+.covid img {
+
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+
+.covid-left {
+    width: 25%;
+    
+    margin-left: 10px;
+}
+
+.covid-middle {
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.covid-right {
+    width: 25%;
+}
+
+.bonus-text{
+    color: rgb(21, 48, 99);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive;
+
+}
+
 
 
 
